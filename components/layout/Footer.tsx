@@ -2,10 +2,10 @@ export default function Footer() {
     return (
         <footer className="flex flex-col gap-8 px-5 py-10 text-center @container border-t border-white/10">
             <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="#">Home</a>
-                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="#">Portfolio</a>
-                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="#">Contact</a>
-                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="#">Privacy Policy</a>
+                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="/">Home</a>
+                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="/projects">Portfolio</a>
+                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="/contact">Contact</a>
+                <a className="text-white/60 hover:text-white transition-colors text-base font-normal leading-normal" href="/blog">Privacy Policy</a>
             </div>
 
             <div className="flex flex-wrap justify-center gap-6">
